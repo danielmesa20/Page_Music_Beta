@@ -1,0 +1,200 @@
+/* BODY */
+body {
+    background: url('../img/img1.jpg') no-repeat center center fixed / cover;
+}
+
+/* FOOTER */
+footer {
+    bottom: 0;
+    width: 100%;
+    color: black;
+    background: rgba(88, 88, 88, 0.3);
+}
+
+footer a{
+  color: rgb(201, 6, 6);
+}
+
+/* NAVBAR */
+nav {
+  margin-bottom: 100px;
+  background: rgba(88, 88, 88, 0.4);
+}
+
+nav a {
+  margin-left: 50px;
+}
+
+.subElemento a{
+  margin: auto;
+}
+
+.subElemento a:hover{
+  text-align: center;
+  color: blueviolet;
+}
+
+/* ICONOS DE REDES SOCIALES */
+.logoFacebook i{
+  padding: 8px;
+  margin-left: 15px;
+}
+
+.logoFacebook i:hover{
+  background: rgba(0, 0, 255, 0.89);
+  color: white;
+  border-radius: 3px;
+}
+
+.logoInstragram i{
+  padding: 4px;
+}
+.logoInstragram a:hover{
+  color: white;
+  border-radius: 3px;
+  background: linear-gradient(rgb(102, 102, 255), rgb(204, 0, 255), rgb(255, 204, 0));
+}
+
+.logoYoutube i{
+  margin: auto;
+  padding: 4px;
+}
+
+.logoYoutube a:hover{
+  color: white;
+  border-radius: 3px;
+  background: red;
+}
+
+/*TITULOS*/
+
+.caja{
+  color:white;
+  margin: 30px;
+  text-align: center;
+}
+
+.cajaCarousel{
+  width: 50%;
+  margin:auto;
+}
+
+#titulo{
+ font-size: 4em;
+ border-radius: 10px;
+ border-style: double;
+ border-width: 5px;
+ border-color: rgb(39, 71, 212);
+ text-shadow: 2px 2px black;
+ /* background: linear-gradient(to right, #30CFD0 0%, #330867 100%); */
+}
+
+.subtitulo{
+  text-shadow: 2px 2px black;
+}
+
+.card{
+  width: 60%;
+  float: left;
+  border-radius: 10px;
+}
+
+.containerImagenes{
+  display: inline-block;
+}
+
+.cajaImagenes{
+  width: 350px;
+  height: 190px;
+  float: left;
+  margin-right: 20px;
+  text-align: center;
+  background: white;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.cajaImagenes img:hover{
+  border: rgb(89, 0, 255) solid;
+}
+
+.cajaImagenes img{
+  border-radius: 10px;
+}
+
+.cajaImagenes a{
+  position: absolute;
+  transform: scale(1.7);
+  margin: 10px;
+  color:white;
+  padding-left: 2px;
+  padding-right: 2px;
+  /* background: linear-gradient(rgb(102, 102, 255), rgb(204, 0, 255), rgb(255, 204, 0)); */
+  border-radius: 5px;
+}
+
+.cajaImagenes a:hover{
+  color:rgb(192, 11, 247);
+}
+
+.img {
+  position: relative;
+  display: block;
+  border-radius: 10px;
+}
+
+/* CONTAINER BODY */
+.container{
+  margin-top: 100px;
+  margin-bottom: 50px;
+  display: inline-block;
+  margin-left: 100px;
+}
+
+li{
+  margin-left: 20px;
+}
+
+a{
+  color:black;
+  font-weight: 500;
+}
+
+ul li a:hover{
+  color: white;
+}
+
+li a:hover{
+  color: white;
+}
+
+/* VIDEOS DE YOUTUBE */
+.youtube{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 35px;
+  left:25%;
+  float: left;
+}
+
+/* TEXTO SUSCRIBETE */
+.suscribete{
+  position: relative;
+  float: left;
+  margin-right: 250px;
+  left:20%;
+}
+
+/* BIOGRAFIA */
+.cajaTextoBio{
+  float: left;
+  margin-bottom: 40px;
+}
+
+.cajaImagenesBio{
+  margin-left: 700px;
+  margin-bottom: 50px;
+  width: 450px;
+  height: 450px;
+  position: absolute;
+}
